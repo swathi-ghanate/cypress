@@ -26,6 +26,9 @@ cy.get('.products').find('.product').each(($el, index, $list) => {
    cy.wrap($el).find('button').click()
     }
     })
+    cy.get('.cart-icon > img').click()
+    cy.contains('PROCEED TO CHECKOUT').click()
+    cy.contains('Place Order').click()
    //b & c.this is to print in logs using then()
     cy.get('.brand').then(function(logoname)
     {
