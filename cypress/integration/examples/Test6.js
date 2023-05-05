@@ -1,4 +1,6 @@
 //To handle the table andto go sibling row uisng next()
+/// <reference types="Cypress" />
+
 describe('My Second Test Suite', function() 
 {
  

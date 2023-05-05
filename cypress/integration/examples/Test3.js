@@ -4,6 +4,7 @@ For each and every product we need to fire an event to get the text present(text
 we using method each(),text() 
 b.this is to print in logs and verify the text of the logo
 c.add promise manually*/
+/// <reference types="Cypress" />
 
 
 

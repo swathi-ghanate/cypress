@@ -7,6 +7,8 @@ Get the url and Nagivate back using browsers control. //to remove attribute we a
 //to navigate we can use go
 
 */
+/// <reference types="Cypress" />
+
 describe('My fifth Test Suite', () => {
 
 it('My Fifth Test case', () => {

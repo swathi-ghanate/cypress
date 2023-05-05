@@ -3,6 +3,8 @@
  get the only visible elements in cypress 
  2.parent child chaning.I want to click on 3rd product 'add to card'*/
 
+/// <reference types="Cypress" />
+
  describe('My Second Test suite',function()
  {
     it('My second test case',function()

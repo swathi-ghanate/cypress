@@ -3,6 +3,7 @@ Task how to select value from static dropdown
 Task how to select value from Dynamic dropdown
 Task how to handle visible and invisible 
 Task how to check radio button */
+/// <reference types="Cypress" />
 
 describe('My Fourth Test Suite', function() 
 {

@@ -1,5 +1,7 @@
 /* Draw back mouseover doesn't support in cypress. To handle this we need to jquery show() method 
 or we can use lick(force:true) this handles the invisible. but this don't click onmousehover*/
+/// <reference types="Cypress" />
+
 describe('My fifth Test Suite', () => {
 
     it('My Fifth Test case', () => {
