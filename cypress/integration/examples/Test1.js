@@ -7,5 +7,6 @@ describe('My First Test Suite',function()
     {
        //To navigate the url 
         cy.visit("https://rahulshettyacademy.com/seleniumPractise/#/")
+        cy.get()
     })
 })
