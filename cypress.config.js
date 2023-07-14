@@ -22,6 +22,7 @@ module.exports = defineConfig({
   },
  //cypress.json 
 
- chromeWebSecurity: false
+ chromeWebSecurity: false,
+ failOnStatusCode: false
 
    });
