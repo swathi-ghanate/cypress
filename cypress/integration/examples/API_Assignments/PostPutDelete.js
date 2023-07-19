@@ -29,7 +29,7 @@ describe('create an employee', () => {
       cy.wait(20000); 
       cy.request({
         method: 'PUT', 
-        url: "https://dummy.restapiexample.com/api/v1/update/${employeeId}",
+        url: `https://dummy.restapiexample.com/api/v1/update/${employeeId}`,
         body: {
           "name" : "Swathi",
           "salary" : 9876,
@@ -48,7 +48,7 @@ describe('create an employee', () => {
 it('should delete the employee', () => {
    cy.request({
     method: 'DELETE',
-    url: "https://dummy.restapiexample.com/api/v1/delete/${employeeId}",
+    url: `https://dummy.restapiexample.com/api/v1/delete/${employeeId}`,
     failOnStatusCode: false
   }).then((response) => {
    
